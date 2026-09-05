@@ -1,0 +1,23 @@
+{
+  "name": "titan-pulse",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TITAN PULSE — تيتان بلس",
+  "author": "عبدالله لازم",
+  "scripts": {
+    "web:sync": "npx cap sync android",
+    "android:add": "npx cap add android",
+    "android:open": "npx cap open android",
+    "android:run": "npx cap run android",
+    "android:build:debug": "cd android && gradlew.bat assembleDebug",
+    "android:build:release": "cd android && gradlew.bat assembleRelease"
+  },
+  "dependencies": {
+    "@capacitor/android": "7.6.9",
+    "@capacitor/core": "7.6.9",
+    "@capacitor/local-notifications": "7.0.7"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "7.6.9"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "appId": "pro.titanpulse.app",
+  "appName": "TITAN PULSE",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}
