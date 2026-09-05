@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">TITAN PULSE</string>
+    <string name="title_activity_main">TITAN PULSE</string>
+    <string name="package_name">pro.titanpulse.app</string>
+    <string name="custom_url_scheme">pro.titanpulse.app</string>
+</resources>
